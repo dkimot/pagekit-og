@@ -1,0 +1,23 @@
+#testimonials {
+	padding: 80px 0px;
+	text-align: center;
+
+	.testimonials {
+		margin-left: 8%;
+		margin-right: 8%;
+		@media only screen and (max-width: 500px) {
+			margin-left: 0px;
+			margin-right: 0px;
+		}
+		display: flex;
+		justify-content: center;
+
+		.testimonial {
+			text-align: left;
+			padding: 3px 15px;
+			.video {
+
+			}
+		}
+	}
+}

@@ -1,0 +1,90 @@
+#splash {
+	.splash-wrapper {
+
+	}
+
+	.splash {
+
+		padding-top: 15px;
+		padding-bottom: 15px;
+		.left {
+			&.header-container {
+				align-items: center;
+			}
+
+			h1 {
+				font-size: 48px;
+				line-height: 52px;
+			}
+
+		}
+
+		.right {
+			.form-container {
+				margin: auto;
+				display: flex;
+				align-items: center;
+
+				.form-wrapper {
+					margin: auto;
+					display: block;
+					background-color: $white;
+					padding: 15px;
+					margin: 10px auto;
+					border-radius: 8px;
+					max-width: 500px;
+					text-align: center;
+				}
+
+				.form-header-text {
+					text-transform: capitalize;
+				}
+
+				form {
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: center;
+
+					.btn {
+						/* get your cash offer: */
+						font-family: Montserrat-Bold;
+						font-size: 18px;
+						color: #FFFFFF;
+						background: #FD9E2D;
+						border-radius: 8px;
+						padding: 20px 8px;
+						margin-top: 23px;
+						width: 85%;
+						text-align: center;
+						cursor: pointer;
+
+						&.full {
+							width: 100%;
+						}
+					}
+
+					.button-wrapper {
+						display: inherit;
+						width: 100%;
+
+						> * {
+							margin: 5px;
+						}
+					}
+
+					> input {
+						width: 100%;
+						max-width: 550px;
+						padding: 10px;
+						margin: 10px auto;
+						font-size: 14px;
+						font-weight: normal;
+						border: 1px solid #979797;
+						border-radius: 8px;
+						border-style: solid;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,78 @@
+$primary_color: #297AD7;
+$white: #FFFFFF;
+
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+a, .link {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.img {}
+
+.head {
+	width: 85%;
+	height: 110px;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+
+	> div {
+		min-width: 30px;
+		color: black;
+		align-self: center;
+	}
+
+	> .logo {
+	}
+
+	> .phone {
+		height: 50px;
+		display: flex;
+
+		> * {
+			align-self: center;
+			font-size: 26;
+			font-weight: bold;
+			color: $primary_color;
+		}
+	}
+}
+.splash {
+	background-color: $primary_color;
+	padding: 0 6%;
+	display: flex;
+	justify-content: center;
+
+	> .row {
+		align-content: space-around;
+	}
+
+	.medium-6.text {
+		display: flex;
+		align-items: center;
+	}
+
+	.splashTextWrapper {
+		width: 100%;
+	}
+
+	.splashText {
+		max-width: 440px;
+		margin: 10px 45px;
+	}
+
+	h1 {
+		font-size: 48;
+		font-weight: bold;
+		color: $white;
+	}
+
+	h4 {
+		font-size: 18;
+		font-weight: normal;
+		color: $white;
+	}
+}

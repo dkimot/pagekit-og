@@ -1,0 +1,15 @@
+#footer {
+	display: flex;
+	justify-content: center;
+	padding-top: 8px;
+	padding-bottom: 6px;
+
+	.footer-wrapper {
+		display: flex;
+		align-items: center;
+
+		* {
+			padding: 0px 5px;
+		}
+	}
+}

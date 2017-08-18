@@ -1,0 +1,16 @@
+#topbar {
+	.topbar-wrapper {
+		background-color: #F2F2F2;
+	}
+
+	.topbar {
+		padding: 12px;
+		align-items: center;
+		justify-content: space-around;
+
+		.phone-number {
+			text-transform: uppercase;
+			text-align: center;
+		}
+	}
+}
